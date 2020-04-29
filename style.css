@@ -1,0 +1,148 @@
+/* font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif; */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F7F9FC;
+  color: #0d2c54;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  color: #f6511d
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color: #7fb800
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 36px;
+  margin: 20px 0;
+
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #00a6ed;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  /* .getbetter-gif{
+    width: 80%;
+  } */
+}
+
+.card {
+  background: rgb(255, 255, 252);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.prof-box{
+  padding: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  /* padding: 10px; */
+}
+
+.prof-info-container{
+  text-align: center;
+}
+
+.inline-card{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.prof-logo{
+  width: 100px;
+}
+
+.corona-gif{
+  width: 200px;
+}
+
+.getbetter-gif{
+  width: 200px;
+}
+
+.getbetter-card{
+  background: #EECB38;
+  padding: 20px;
+}
+
+.btn-big{
+  font-size: 22px;
+  background: #00a6ed;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn-big:hover{
+  background: #83daff;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+}
+
+.rounded-icon{
+  border-radius: 10px;
+}
+
+.btn-icon{
+  font-size: 52px;
+  color: #00a6ed;
+  margin: 10px;
+  padding: 0 4px;
+  /* border: solid 1px red; */
+  /* border-radius: 5px; */
+}
+
+.btn-icon:hover{
+  color: #83daff;
+}
